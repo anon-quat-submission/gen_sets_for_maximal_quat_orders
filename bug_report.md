@@ -1,0 +1,7 @@
+# Bug Reports
+
+## October 10, 2026
+
+-The initial run data is flawed, because a bug was present in ```does_generate.magma``` at the time that caused ```random_walk``` to just stand still. 
+
+-There is currently a bug in ```does_generate.magma``` in the average generation time testing battery that causes low primes to report violations of the bound. Each reported violation has been hand checked and is not, to my knowledge, a counterexample to the claims in the paper: Each tuple (p, l, k, O) for a reported violation in violations.log has been hand-checked to ensure it satisfies the bound claimed in the paper. 
